@@ -72,6 +72,6 @@ body {
   grid-template-columns: 1fr;
 
   @include xl {
-    grid-template-columns: 1fr 6fr;
+    grid-template-columns: 1fr 4fr;
   }
 }

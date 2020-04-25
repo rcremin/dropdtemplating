@@ -105,7 +105,7 @@ body {
   grid-template-columns: 1fr; }
   @media (min-width: 1200px) {
     .dpd-page {
-      grid-template-columns: 1fr 6fr; } }
+      grid-template-columns: 1fr 4fr; } }
 
 .dpd-nav {
   z-index: 5;
@@ -139,7 +139,7 @@ body {
     .dpd-nav__list .dpd-nav__title h3 {
       padding-left: 72px; }
     .dpd-nav__list a {
-      font-size: 24px;
+      font-size: 18px;
       line-height: 38px;
       font-weight: 500;
       display: flex;
@@ -151,12 +151,12 @@ body {
       padding-right: 20px; }
   @media (min-width: 1200px) {
     .dpd-nav {
-      width: 405px;
       transform: translateX(0);
       position: relative;
       display: flex;
       flex-direction: column;
       justify-content: space-between;
+      width: 350px;
       background-color: #f9f9f9; } }
   .dpd-nav__logo {
     color: #041157;
@@ -167,7 +167,7 @@ body {
     font-weight: 700;
     font-family: "SoinSansNeue", sans-serif; }
   .dpd-nav__title {
-    font-size: 20px;
+    font-size: 18px;
     font-weight: 500;
     padding-left: 72px;
     text-transform: uppercase;

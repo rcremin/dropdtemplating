@@ -42,7 +42,7 @@
     }
 
     a {
-      font-size: 24px;
+      font-size: 18px;
       line-height: 38px;
       font-weight: 500;
       display: flex;
@@ -60,13 +60,12 @@
   }
 
   @include xl {
-    width: 405px;
     transform: translateX(0);
     position: relative;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    // min-width: 305px;
+    width: 350px;
     background-color: #f9f9f9;
   }
 
@@ -81,7 +80,7 @@
   }
 
   &__title {
-    font-size: 20px;
+    font-size: 18px;
     font-weight: 500;
     padding-left: 72px;
     text-transform: uppercase;
