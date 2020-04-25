@@ -2,6 +2,8 @@
   padding: 1em;
   border-radius: 70px;
   background: #ffffff;
+  height: 100%;
+  display: flex;
 
   @include md {
     border-radius: 0;
@@ -37,4 +39,8 @@
       text-align: left;
     }
   }
+}
+
+main {
+  margin: auto;
 }

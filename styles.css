@@ -181,7 +181,9 @@ body {
 .dpd-body {
   padding: 1em;
   border-radius: 70px;
-  background: #ffffff; }
+  background: #ffffff;
+  height: 100%;
+  display: flex; }
   @media (min-width: 768px) {
     .dpd-body {
       border-radius: 0;
@@ -210,6 +212,9 @@ body {
     @media (min-width: 768px) {
       .dpd-body h2 {
         text-align: left; } }
+
+main {
+  margin: auto; }
 
 .dpd-form label {
   font-size: 18px;
