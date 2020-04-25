@@ -15,7 +15,6 @@
   h1 {
     margin: 1em 0;
     color: $color-secondary;
-    // margin-top: -25px;
     text-align: center;
     font-size: 40px;
     font-weight: 700;
@@ -24,6 +23,7 @@
     @include md {
       margin: .5em 0;
       text-align: left;
+      font-size: 3.5rem;
     }
   }
 
