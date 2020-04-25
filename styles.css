@@ -238,7 +238,6 @@ body {
 
 .dpd-item {
   width: 100%;
-  max-width: 236px;
   margin-bottom: 50px;
   display: inline-flex;
   flex-direction: column;
@@ -256,8 +255,7 @@ body {
     width: 100%;
     max-width: 495px; }
   .dpd-item--location {
-    width: 100%;
-    max-width: 655px; }
+    width: 100%; }
   @media only screen and (max-width: 1700px) {
     .dpd-item {
       max-width: 400px; } }
@@ -269,9 +267,7 @@ body {
     display: flex;
     justify-content: space-between; }
   .dpd-form__bottom-row {
-    display: flex;
-    justify-content: space-between;
-    max-width: 934px; }
+    display: flex; }
   .dpd-form label {
     font-weight: 500;
     font-size: 26px;
