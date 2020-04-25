@@ -21,8 +21,7 @@
   .dpd-item label {
     margin-bottom: 15px; }
   .dpd-item--country {
-    width: 100%;
-    max-width: 495px; }
+    width: 100%; }
   .dpd-item--location {
     width: 100%; }
 
@@ -300,7 +299,6 @@ body {
 
 .dpd-tabs {
   padding-top: 38px;
-  padding-right: 78px;
   padding-bottom: 26px;
   display: flex;
   justify-content: space-between;
