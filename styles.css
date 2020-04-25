@@ -1,5 +1,6 @@
 .dpd-expiration {
-  font-size: 20px; }
+  font-size: 20px;
+  margin: -1em auto 1em 0; }
 
 .dpd-item {
   width: 100%;
@@ -104,7 +105,7 @@ body {
   grid-template-columns: 1fr; }
   @media (min-width: 1200px) {
     .dpd-page {
-      grid-template-columns: 1fr 5fr; } }
+      grid-template-columns: 1fr 6fr; } }
 
 .dpd-nav {
   z-index: 5;
@@ -156,7 +157,6 @@ body {
       display: flex;
       flex-direction: column;
       justify-content: space-between;
-      min-width: 405px;
       background-color: #f9f9f9; } }
   .dpd-nav__logo {
     color: #041157;
