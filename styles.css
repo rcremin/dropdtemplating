@@ -170,7 +170,7 @@ body {
   justify-content: flex-end;
   padding-right: 75px; }
   .dpd-header__dropdown {
-    width: 286px;
+    padding: .7em 1.5em;
     height: 70px;
     cursor: pointer;
     font-size: 26px;
