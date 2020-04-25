@@ -1,8 +1,12 @@
 .dpd-nav {
   z-index: 5;
   position: absolute;
-  transform: translateX(-100%);
+  transform: translateX(-200%);
+  width: 100%;
+  background: #ffffff;
+  height: 100vh;
   transition: all .5s ease;
+  box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
 
   @include md {}
 
@@ -105,4 +109,5 @@
 
 .show {
   transform: translateX(0);
+  margin: -1em;
 }
