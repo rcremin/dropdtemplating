@@ -242,15 +242,16 @@ body {
 .dpd-nav {
   position: absolute;
   transform: translateX(-100%);
-  transition: all .5s ease; }
-  @media (min-width: 992px) {
+  transition: all .5s ease;
+  width: 405px; }
+  @media (min-width: 1200px) {
     .dpd-nav {
       transform: translateX(0);
       position: relative;
       display: flex;
       flex-direction: column;
       justify-content: space-between;
-      width: 405px;
+      min-width: 405px;
       padding: 50px 15px 0 0;
       background-color: #f9f9f9; }
       .dpd-nav .logout {
@@ -260,7 +261,7 @@ body {
         .dpd-nav__list img {
           width: 30px; }
         .dpd-nav__list li {
-          padding-left: 12px;
+          padding-left: 72px;
           margin-bottom: 24px;
           position: relative; }
           .dpd-nav__list li:hover:after {
@@ -275,6 +276,8 @@ body {
             border-top-right-radius: 10px;
             border-bottom-right-radius: 10px;
             background-color: #4ca0e9; }
+        .dpd-nav__list .dpd-nav__title h3 {
+          padding-left: 72px; }
         .dpd-nav__list a {
           font-size: 30px;
           line-height: 38px;
@@ -286,28 +289,19 @@ body {
         .dpd-nav__list i {
           padding-left: 6px;
           padding-right: 20px; } }
-  @media (min-width: 1200px) {
-    .dpd-nav {
-      width: 405px; }
-      .dpd-nav__logo {
-        color: #041157;
-        font-size: 44px;
-        line-height: 54px;
-        padding-left: 12px;
-        padding-bottom: 60px;
-        font-weight: 700;
-        font-family: "SoinSansNeue", sans-serif; }
-      .dpd-nav__title {
-        font-size: 20px;
-        font-weight: 500;
-        padding-left: 12px;
-        text-transform: uppercase;
-        font-family: "SoinSansNeue", sans-serif; }
-      .dpd-nav__logo {
-        padding-left: 15px; }
-      .dpd-nav__title {
-        padding-left: 15px; }
-      .dpd-nav__list li {
-        padding-left: 15px; }
-      .dpd-nav__list a {
-        line-height: 24px; } }
+  .dpd-nav__logo {
+    color: #041157;
+    font-size: 44px;
+    line-height: 54px;
+    padding-left: 72px;
+    padding-bottom: 60px;
+    font-weight: 700;
+    font-family: "SoinSansNeue", sans-serif; }
+  .dpd-nav__title {
+    font-size: 20px;
+    font-weight: 500;
+    padding-left: 72px;
+    text-transform: uppercase;
+    font-family: "SoinSansNeue", sans-serif; }
+  .dpd-nav__list a {
+    line-height: 24px; }

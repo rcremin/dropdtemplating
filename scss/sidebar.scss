@@ -3,17 +3,22 @@
   transform: translateX(-100%);
   transition: all .5s ease;
 
+  @include md {
+
+  }
+
   @include lg {
+  }
+
+  @include xl {
     transform: translateX(0);
     position: relative;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    width: 405px;
+    min-width: 405px;
     padding: 50px 15px 0 0;
     background-color: #f9f9f9;
-
-
 
     .logout {
       color: #061058;
@@ -27,7 +32,7 @@
       }
 
       li {
-        padding-left: 12px;
+        padding-left: 72px;
         margin-bottom: 24px;
         position: relative;
 
@@ -48,6 +53,10 @@
         }
       }
 
+      .dpd-nav__title h3 {
+        padding-left: 72px;
+      }
+
       a {
         font-size: 30px;
         line-height: 38px;
@@ -65,49 +74,33 @@
         padding-right: 20px;
       }
     }
-
   }
 
-  @include xl {
+  &__logo {
+    color: $color-secondary;
+    font-size: 44px;
+    line-height: 54px;
+    padding-left: 72px;
+    padding-bottom: 60px;
+    font-weight: 700;
+    font-family: "SoinSansNeue", sans-serif;
+  }
 
+  &__title {
+    font-size: 20px;
+    font-weight: 500;
+    padding-left: 72px;
+    text-transform: uppercase;
+    font-family: "SoinSansNeue", sans-serif;
+  }
 
-    &__logo {
-      color: $color-secondary;
-      font-size: 44px;
-      line-height: 54px;
-      padding-left: 12px;
-      padding-bottom: 60px;
-      font-weight: 700;
-      font-family: "SoinSansNeue", sans-serif;
-    }
+  width: 405px;
 
-    &__title {
-      font-size: 20px;
-      font-weight: 500;
-      padding-left: 12px;
-      text-transform: uppercase;
-      font-family: "SoinSansNeue", sans-serif;
-    }
+  &__list {
 
-    width: 405px;
-
-    &__logo {
-      padding-left: 15px;
-    }
-
-    &__title {
-      padding-left: 15px;
-    }
-
-    &__list {
-      li {
-        padding-left: 15px;
-      }
-
-      a {
-        // font-size: 18px;
-        line-height: 24px;
-      }
+    a {
+      // font-size: 18px;
+      line-height: 24px;
     }
   }
 }
