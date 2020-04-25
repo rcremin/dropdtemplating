@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport"
+    content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <title>Document</title>
+  <link rel="stylesheet" href="./styles.css" />
+</head>
+
+<body>
+  <div class="dpd-page">
+    <div class="toggler">
+      <div class="span"></div>
+    </div>
+    <nav class="dpd-nav">
+      <div class="dpd-nav__logo">Dropd</div>
+      <div>
+        <h3 class="dpd-nav__title">Application</h3>
+        <ul class="dpd-nav__list">
+          <li>
+            <a href="#"><i><img src="./img/Trend.png" alt="#" /></i>Dashboard</a>
+          </li>
+          <li>
+            <a href="#"><i><img src="./img/Search.png" alt="#" /></i>Product Finder</a>
+          </li>
+          <li>
+            <a href="#"><i><img src="./img/Save.png" alt="#" /></i>Saved Products</a>
+          </li>
+          <li>
+            <a href="#"><i><img src="./img/Mouse.png" alt="#" /></i>Listed Products</a>
+          </li>
+          <li>
+            <a href="#"><i><img src="./img/cart.png" alt="#" /></i>Sold Products</a>
+          </li>
+          <li>
+            <a href="#"><i><img src="./img/check.png" alt="#" /></i>Fulfilled
+              Products</a>
+          </li>
+        </ul>
+      </div>
+      <div>
+        <h3 class="dpd-nav__title">My profile</h3>
+        <ul class="dpd-nav__list">
+          <li>
+            <a href="#"><i><img src="./img/Settings.png" alt="#" /></i>Settings</a>
+          </li>
+          <li>
+            <a href="#"><i><img src="./img/bullseye.png" alt="#" /></i>Promotions</a>
+          </li>
+          <li>
+            <a href="#"><i><img src="./img/Money.png" alt="#" /></i>Billing</a>
+          </li>
+        </ul>
+      </div>
+      <ul class="dpd-nav__list last_nav_item">
+        <li>
+          <a href="#" class="logout"><i><img src="./img/Log Out.png" alt="#" /></i>Logout</a>
+        </li>
+      </ul>
+    </nav>
+    <div class="dpd-body">
+      <header class="dpd-header">
+        <button class="dpd-burger">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+      </header>
+      <main>
+        <h1>Settings</h1>
+        <h2>Manage your dropshipping settings</h2>
+        <div class="dpd-tabs">
+          <button>General Settings</button>
+          <button>Description</button>
+          <button>eBay Policies</button>
+          <button>Paypal</button>
+          <button>User Settings</button>
+        </div>
+        <div class="dpd-options">
+          <button>
+            <img src="./img/eBay.png" alt="#" />
+            <p>Disconnect</p>
+          </button>
+          <button>
+            <img src="./img/Amazon.png" alt="#" />
+            <p>Connect</p>
+          </button>
+        </div>
+        <div class="dpd-expiration">Expires: 2020-04-28 15:42:45</div>
+        <form class="dpd-form">
+          <div class="dpd-form__top-row">
+            <div class="dpd-item">
+              <label for="quantity">Quantity</label>
+              <input type="number" id="quantity" name="quantity" />
+            </div>
+            <div class="dpd-item">
+              <label for="minimum">Minimum Profit</label>
+              <input type="number" id="minimum" name="minimum" />
+            </div>
+            <div class="dpd-item">
+              <label for="profit">Profit</label>
+              <input type="number" id="profit" name="profit" />
+            </div>
+            <div class="dpd-item dpd-item--country">
+              <label for="country">Country</label>
+              <select type="text" id="country" name="country">
+                <option value="canada">Canada</option>
+                <option value="usa">USA</option>
+                <option value="mexico">Mexico</option>
+              </select>
+            </div>
+          </div>
+          <div class="dpd-form__bottom-row">
+            <div class="dpd-item dpd-item--location">
+              <label for="location">Location</label>
+              <input type="text" id="location" name="location" />
+            </div>
+            <div class="dpd-item">
+              <label for="postal">Postal Code</label>
+              <input type="number" id="postal" name="postal" />
+            </div>
+          </div>
+          <button type="submit">Save Setting</button>
+        </form>
+      </main>
+    </div>
+  </div>
+  <script src="navbar.js"></script>
+</body>
+
+</html>
