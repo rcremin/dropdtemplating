@@ -1,80 +1,3 @@
-@font-face {
-  font-family: "SoinSansNeue";
-  font-display: swap;
-  src: url("./fonts/Stawix - SoinSansNeue-Roman.otf");
-  font-weight: 400;
-  font-style: normal; }
-
-@font-face {
-  font-family: "SoinSansNeue";
-  font-display: swap;
-  src: url("./fonts/Stawix - SoinSansNeue-Medium.otf");
-  font-weight: 500;
-  font-style: normal; }
-
-@font-face {
-  font-family: "SoinSansNeue";
-  font-display: swap;
-  src: url("./fonts/Stawix - SoinSansNeue-Bold.otf");
-  font-weight: 700;
-  font-style: normal; }
-
-html,
-body,
-div,
-ul,
-li,
-p,
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-nav,
-button,
-header,
-select,
-a,
-input,
-textarea,
-fieldset {
-  margin: 0;
-  padding: 0;
-  color: #8389a9;
-  border: none;
-  outline: none;
-  font-size: 16px;
-  font-weight: normal;
-  list-style: none;
-  line-height: 22px;
-  text-decoration: none;
-  box-sizing: border-box;
-  word-break: break-word;
-  background-color: transparent;
-  font-family: "SoinSansNeue", sans-serif; }
-
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-p,
-span {
-  color: inherit;
-  font-size: inherit;
-  line-height: inherit;
-  letter-spacing: inherit;
-  font-weight: inherit; }
-
-body {
-  background-color: #f9f9f9; }
-
-.dpd-page {
-  margin: 0 auto;
-  display: flex; }
-
 .dpd-header {
   height: 130px;
   display: flex;
@@ -173,43 +96,86 @@ body {
   .dpd-item--location {
     width: 100%; }
 
-.dpd-form {
-  padding-top: 50px;
-  padding-right: 83px; }
-  .dpd-form__top-row {
-    display: flex;
-    justify-content: space-between; }
-  .dpd-form__bottom-row {
-    display: flex; }
-  .dpd-form label {
-    font-weight: 500;
-    font-size: 26px;
-    line-height: 36px;
-    color: #041157; }
-  .dpd-form input,
-  .dpd-form select {
-    color: #041157;
-    box-shadow: 0px 25px 90px rgba(152, 152, 152, 0.25); }
-  .dpd-form button {
-    width: 100%;
-    height: 70px;
-    display: flex;
-    color: #ffffff;
-    font-size: 28px;
-    cursor: pointer;
-    align-items: center;
-    border-radius: 35px;
-    justify-content: center;
-    background-color: #4ca0e9; }
-    .dpd-form button:hover {
-      box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04); }
-  @media only screen and (max-width: 1700px) {
-    .dpd-form {
-      padding-right: 0; } }
-  @media only screen and (max-width: 1200px) {
-    .dpd-form label {
-      font-size: 18px;
-      line-height: 24px; } }
+@font-face {
+  font-family: "SoinSansNeue";
+  font-display: swap;
+  src: url("./fonts/Stawix - SoinSansNeue-Roman.otf");
+  font-weight: 400;
+  font-style: normal; }
+
+@font-face {
+  font-family: "SoinSansNeue";
+  font-display: swap;
+  src: url("./fonts/Stawix - SoinSansNeue-Medium.otf");
+  font-weight: 500;
+  font-style: normal; }
+
+@font-face {
+  font-family: "SoinSansNeue";
+  font-display: swap;
+  src: url("./fonts/Stawix - SoinSansNeue-Bold.otf");
+  font-weight: 700;
+  font-style: normal; }
+
+html,
+body,
+div,
+ul,
+li,
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+nav,
+button,
+header,
+select,
+a,
+input,
+textarea,
+fieldset {
+  margin: 0;
+  padding: 0;
+  color: #8389a9;
+  border: none;
+  outline: none;
+  font-size: 16px;
+  font-weight: normal;
+  list-style: none;
+  line-height: 22px;
+  text-decoration: none;
+  box-sizing: border-box;
+  word-break: break-word;
+  background-color: transparent;
+  font-family: "SoinSansNeue", sans-serif; }
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+span {
+  color: inherit;
+  font-size: inherit;
+  line-height: inherit;
+  letter-spacing: inherit;
+  font-weight: inherit; }
+
+body {
+  background-color: #f9f9f9;
+  padding: 1em; }
+
+.dpd-page {
+  display: grid;
+  grid-template-columns: 1fr; }
+  @media (min-width: 1200px) {
+    .dpd-page {
+      grid-template-columns: 1fr 5fr; } }
 
 .dpd-nav {
   position: absolute;
@@ -279,8 +245,6 @@ body {
     line-height: 24px; }
 
 .dpd-body {
-  padding-left: 85px;
-  padding-bottom: 30px;
   background-color: #ffffff;
   border-top-left-radius: 70px;
   border-bottom-left-radius: 70px; }
@@ -296,9 +260,45 @@ body {
     padding-top: 10px;
     line-height: 42px;
     letter-spacing: 0.7px; }
-  @media only screen and (max-width: 1200px) {
-    .dpd-body {
-      padding-left: 30px;
-      padding-right: 15px; }
-      .dpd-body h1 {
-        margin-top: 0; } }
+
+.dpd-form__top-row {
+  display: grid;
+  grid-template-columns: 1fr; }
+
+.dpd-form__bottom-row {
+  display: grid;
+  grid-template-columns: 1fr; }
+
+.dpd-form label {
+  font-weight: 500;
+  font-size: 26px;
+  line-height: 36px;
+  color: #041157; }
+
+.dpd-form input,
+.dpd-form select {
+  color: #041157;
+  box-shadow: 0px 25px 90px rgba(152, 152, 152, 0.25); }
+
+.dpd-form button {
+  width: 100%;
+  height: 70px;
+  display: flex;
+  color: #ffffff;
+  font-size: 28px;
+  cursor: pointer;
+  align-items: center;
+  border-radius: 35px;
+  justify-content: center;
+  background-color: #4ca0e9; }
+  .dpd-form button:hover {
+    box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04); }
+
+@media only screen and (max-width: 1700px) {
+  .dpd-form {
+    padding-right: 0; } }
+
+@media only screen and (max-width: 1200px) {
+  .dpd-form label {
+    font-size: 18px;
+    line-height: 24px; } }

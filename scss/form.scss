@@ -1,0 +1,53 @@
+.dpd-form {
+
+  &__top-row {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+
+  &__bottom-row {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+
+  label {
+    font-weight: 500;
+    font-size: 26px;
+    line-height: 36px;
+    color: $color-secondary;
+  }
+
+  input,
+  select {
+    color: $color-secondary;
+    box-shadow: 0px 25px 90px rgba(152, 152, 152, 0.25);
+  }
+
+  button {
+    width: 100%;
+    height: 70px;
+    display: flex;
+    color: #ffffff;
+    font-size: 28px;
+    cursor: pointer;
+    align-items: center;
+    border-radius: 35px;
+    justify-content: center;
+    background-color: $color-primary;
+
+    &:hover {
+      box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
+    }
+  }
+
+  @media only screen and (max-width: 1700px) {
+    padding-right: 0;
+  }
+
+  @media only screen and (max-width: 1200px) {
+    label {
+      font-size: 18px;
+      line-height: 24px;
+    }
+  }
+}
