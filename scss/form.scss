@@ -1,13 +1,30 @@
 .dpd-form {
 
+  label {
+    font-size: 18px;
+    line-height: 24px;
+  }
+
   &__top-row {
     display: grid;
     grid-template-columns: 1fr;
+
+    @include md {
+      grid-template-columns: 1fr 1fr;
+    }
+
+    @include lg {
+      grid-template-columns: repeat(4, 1fr);
+    }
   }
 
   &__bottom-row {
     display: grid;
     grid-template-columns: 1fr;
+
+    @include md {
+      grid-template-columns: 1fr 1fr;
+    }
   }
 
   label {
@@ -44,10 +61,5 @@
     padding-right: 0;
   }
 
-  @media only screen and (max-width: 1200px) {
-    label {
-      font-size: 18px;
-      line-height: 24px;
-    }
-  }
+  @media only screen and (max-width: 1200px) {}
 }

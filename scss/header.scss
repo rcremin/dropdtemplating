@@ -1,0 +1,19 @@
+.dpd-header {
+
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-end;
+
+  &__dropdown {
+    padding: .7em 1.5em;
+    height: 70px;
+    cursor: pointer;
+    font-size: 26px;
+    border-radius: 35px;
+    color: $color-secondary;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #e8f4ff;
+  }
+}
