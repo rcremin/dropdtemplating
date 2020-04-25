@@ -205,31 +205,45 @@ body {
     line-height: 24px; }
 
 .dpd-body {
+  padding: 1em;
   background-color: red;
-  border-top-left-radius: 70px;
-  border-bottom-left-radius: 70px; }
+  border-radius: 70px; }
+  @media (min-width: 768px) {
+    .dpd-body {
+      border-radius: 0;
+      border-top-left-radius: 70px;
+      border-bottom-left-radius: 70px; } }
   .dpd-body h1 {
+    margin: 1em 0;
     color: #041157;
-    margin-top: -25px;
-    font-size: 63px;
-    line-height: 73px;
+    text-align: center;
+    font-size: 40px;
     font-weight: 700;
     font-family: "SoinSansNeue", sans-serif; }
+    @media (min-width: 768px) {
+      .dpd-body h1 {
+        margin: .5em 0;
+        text-align: left; } }
   .dpd-body h2 {
+    text-align: center;
     font-size: 30px;
     padding-top: 10px;
     line-height: 42px;
     letter-spacing: 0.7px; }
+    @media (min-width: 768px) {
+      .dpd-body h2 {
+        text-align: left; } }
 
 .dpd-header {
   display: flex;
-  align-items: flex-end;
-  justify-content: flex-end; }
+  justify-content: center; }
+  @media (min-width: 768px) {
+    .dpd-header {
+      justify-content: flex-end; } }
   .dpd-header__dropdown {
     padding: .7em 1.5em;
-    height: 70px;
     cursor: pointer;
-    font-size: 26px;
+    font-size: 20px;
     border-radius: 35px;
     color: #041157;
     display: flex;
