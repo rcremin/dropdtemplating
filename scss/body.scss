@@ -1,6 +1,7 @@
 .dpd-body {
-  background-color: #ffffff;
+  padding: 1em;
   border-radius: 70px;
+  background: #ffffff;
 
   @include md {
     border-radius: 0;

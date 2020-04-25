@@ -46,6 +46,9 @@
   font-weight: 700;
   font-style: normal; }
 
+body {
+  background-color: #F2F2F2; }
+
 html,
 body,
 div,
@@ -96,8 +99,7 @@ span {
   font-weight: inherit; }
 
 body {
-  background-color: #f9f9f9;
-  padding: 1em; }
+  background-color: #F2F2F2; }
 
 .dpd-page {
   display: grid;
@@ -111,7 +113,7 @@ body {
   position: absolute;
   transform: translateX(-200%);
   width: 100%;
-  background: #ffffff;
+  background-color: #F2F2F2;
   height: 100vh;
   transition: all .5s ease;
   padding: 50px 15px 0 0; }
@@ -181,8 +183,9 @@ body {
   transform: translateX(0); }
 
 .dpd-body {
-  background-color: #ffffff;
-  border-radius: 70px; }
+  padding: 1em;
+  border-radius: 70px;
+  background: #ffffff; }
   @media (min-width: 768px) {
     .dpd-body {
       border-radius: 0;
@@ -256,7 +259,7 @@ body {
 .dpd-form input,
 .dpd-form select {
   color: #041157;
-  box-shadow: 0px 25px 90px rgba(152, 152, 152, 0.25); }
+  box-shadow: 0px 2px 11px rgba(152, 152, 152, 0.25); }
 
 .dpd-form button {
   width: 100%;
