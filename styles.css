@@ -219,17 +219,18 @@ body {
   max-width: 690px; }
   .dpd-options button {
     width: 100%;
-    height: 70px;
+    padding: .7em 1.5em;
     cursor: pointer;
     font-size: 25px;
     max-width: 335px;
     border-radius: 35px;
-    display: inline-flex;
+    display: flex;
     align-items: flex-end;
     justify-content: center;
     color: #041157;
-    background-color: #e8f4ff; }
-    .dpd-options button:last-of-type img {
+    background-color: #E8F4FF; }
+    .dpd-options button img {
+      height: 27px;
       margin-right: 15px; }
 
 .dpd-expiration {
@@ -299,6 +300,3 @@ body {
     .dpd-form label {
       font-size: 18px;
       line-height: 24px; } }
-
-.dpd-burger {
-  border: solid 1px red; }
