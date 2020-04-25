@@ -173,6 +173,9 @@ body {
   .dpd-nav__list a {
     line-height: 24px; }
 
+.show {
+  transform: translateX(0); }
+
 .dpd-body {
   padding: 1em;
   background-color: red;
@@ -330,3 +333,23 @@ body {
       border-top-left-radius: 10px;
       border-top-right-radius: 10px;
       background-color: #4ca0e9; }
+
+.toggler {
+  position: absolute;
+  width: 30px;
+  top: 1em;
+  left: .5em; }
+  .toggler .span, .toggler .span:before, .toggler .span:after {
+    height: 4px;
+    width: 30px;
+    background: blue;
+    position: relative; }
+    .toggler .span:before, .toggler .span:after {
+      content: '';
+      position: absolute;
+      top: -10px; }
+    .toggler .span:after {
+      top: 10px; }
+  @media (min-width: 1200px) {
+    .toggler {
+      display: none; } }

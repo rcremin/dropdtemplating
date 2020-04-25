@@ -3,12 +3,9 @@
   transform: translateX(-100%);
   transition: all .5s ease;
 
-  @include md {
+  @include md {}
 
-  }
-
-  @include lg {
-  }
+  @include lg {}
 
   @include xl {
     transform: translateX(0);
@@ -103,4 +100,8 @@
       line-height: 24px;
     }
   }
+}
+
+.show {
+  transform: translateX(0);
 }

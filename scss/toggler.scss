@@ -1,0 +1,29 @@
+.toggler {
+  position: absolute;
+  width: 30px;
+  top: 1em;
+  left: .5em;
+
+  .span {
+    height: 4px;
+    width: 30px;
+    background: blue;
+    position: relative;
+
+    &:before,
+    &:after {
+      @extend .span;
+      content: '';
+      position: absolute;
+      top: -10px;
+    }
+
+    &:after {
+      top: 10px;
+    }
+  }
+
+  @include xl {
+    display: none;
+  }
+}
