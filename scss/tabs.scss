@@ -33,15 +33,16 @@
     border-bottom: 1px solid #eaeaea;
 
     button {
+      margin: 0;
+      padding: 0;
       border: 0;
       color: $color-secondary;
-
+      flex-shrink: 0;
       font-size: 15px;
       line-height: 24px;
       font-weight: 500;
       position: relative;
       background-color: transparent;
-      margin: 0 .5em;
 
       &:hover {
         background: 0;
@@ -55,7 +56,6 @@
 
       @include rwd {
         font-size: 35px;
-        line-height: 42px;
       }
 
       &:hover {
