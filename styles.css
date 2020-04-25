@@ -187,7 +187,10 @@ body {
     .dpd-body {
       border-radius: 0;
       border-top-left-radius: 70px;
-      border-bottom-left-radius: 70px; } }
+      border-bottom-left-radius: 70px;
+      padding-left: 5%;
+      padding-right: 5%;
+      padding-top: 5%; } }
   .dpd-body h1 {
     margin: 1em 0;
     color: #041157;
