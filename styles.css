@@ -107,6 +107,7 @@ body {
       grid-template-columns: 1fr 5fr; } }
 
 .dpd-nav {
+  z-index: 5;
   position: absolute;
   transform: translateX(-100%);
   transition: all .5s ease;
@@ -338,7 +339,8 @@ body {
   position: absolute;
   width: 30px;
   top: 1em;
-  left: .5em; }
+  left: .5em;
+  z-index: 10; }
   .toggler .span, .toggler .span:before, .toggler .span:after {
     height: 4px;
     width: 30px;
