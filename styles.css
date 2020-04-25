@@ -212,23 +212,6 @@ body {
       .dpd-body h2 {
         text-align: left; } }
 
-.dpd-header {
-  display: flex;
-  justify-content: center; }
-  @media (min-width: 768px) {
-    .dpd-header {
-      justify-content: flex-end; } }
-  .dpd-header__dropdown {
-    padding: .7em 1.5em;
-    cursor: pointer;
-    font-size: 20px;
-    border-radius: 35px;
-    color: #041157;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background-color: #e8f4ff; }
-
 .dpd-form label {
   font-size: 18px;
   line-height: 24px; }
