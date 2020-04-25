@@ -19,9 +19,6 @@
     text-align: center;
     line-height: 1;
     position: relative; }
-  .dpd-item select::after {
-    content: '>';
-    color: red; }
   .dpd-item label {
     margin-bottom: 15px; }
   .dpd-item--country {
@@ -122,8 +119,6 @@ body {
     color: #061058; }
   .dpd-nav__list {
     padding: 20px 0 26px; }
-    .dpd-nav__list img {
-      width: 30px; }
     .dpd-nav__list li {
       padding-left: 72px;
       margin-bottom: 24px;

@@ -25,11 +25,6 @@
     position: relative;
   }
 
-  select::after {
-    content: '>';
-    color: red;
-  }
-
   label {
     margin-bottom: 15px;
   }
