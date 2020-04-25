@@ -75,7 +75,7 @@ body {
 .dpd-body {
   padding-left: 85px;
   padding-bottom: 30px;
-  width: calc(100% - 405px);
+  // width: calc(100% - 405px);
   background-color: #ffffff;
   border-top-left-radius: 70px;
   border-bottom-left-radius: 70px;
@@ -97,7 +97,7 @@ body {
   }
 
   @media only screen and (max-width: 1200px) {
-    width: calc(100% - 225px);
+    // width: calc(100% - 225px);
     padding-left: 30px;
     padding-right: 15px;
 
@@ -107,110 +107,6 @@ body {
   }
 }
 
-.dpd-nav {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  width: 405px;
-  padding: 50px 15px 0 0;
-  background-color: #f9f9f9;
-
-  &__logo {
-    color: $color-secondary;
-    font-size: 44px;
-    line-height: 54px;
-    padding-left: 72px;
-    padding-bottom: 60px;
-    font-weight: 700;
-    font-family: "SoinSansNeue", sans-serif;
-  }
-
-  &__title {
-    font-size: 20px;
-    font-weight: 500;
-    padding-left: 78px;
-    text-transform: uppercase;
-    font-family: "SoinSansNeue", sans-serif;
-  }
-
-  .logout {
-    color: #061058;
-  }
-
-  &__list {
-    padding: 20px 0 26px;
-
-    img {
-      width: 30px;
-    }
-
-    li {
-      padding-left: 72px;
-      margin-bottom: 24px;
-      position: relative;
-
-      &:hover {
-        &:after {
-          top: 0;
-          left: 0;
-          bottom: 0;
-          margin: auto;
-          content: '';
-          width: 10px;
-          height: 52px;
-          position: absolute;
-          border-top-right-radius: 10px;
-          border-bottom-right-radius: 10px;
-          background-color: $color-primary;
-        }
-      }
-    }
-
-    a {
-      font-size: 30px;
-      line-height: 38px;
-      font-weight: 500;
-      display: flex;
-      align-items: center;
-
-      &:hover {
-        color: $color-secondary;
-      }
-    }
-
-    i {
-      padding-left: 6px;
-      padding-right: 20px;
-    }
-  }
-
-  @include sm {
-    border: solid 1px red;
-  }
-
-  @media only screen and (max-width: 1200px) {
-    width: 225px;
-
-    &__logo {
-      padding-left: 15px;
-    }
-
-    &__title {
-      padding-left: 15px;
-    }
-
-    &__list {
-      li {
-        padding-left: 15px;
-      }
-
-      a {
-        font-size: 18px;
-        line-height: 24px;
-      }
-    }
-  }
-}
 
 .dpd-header {
   height: 130px;
