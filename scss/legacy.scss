@@ -1,8 +1,3 @@
-
-
-
-
-
 .dpd-expiration {
   font-size: 20px;
 }
@@ -21,12 +16,18 @@
     font-size: 28px;
     border-radius: 35px;
     background-color: #ffffff;
+    -webkit-appearance: none;
   }
 
   select {
     text-align: center;
     line-height: 1;
     position: relative;
+  }
+
+  select::after {
+    content: '>';
+    color: red;
   }
 
   label {
@@ -41,4 +42,3 @@
     width: 100%;
   }
 }
-

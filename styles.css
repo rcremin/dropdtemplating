@@ -13,11 +13,15 @@
     padding: .7em 1.5em;
     font-size: 28px;
     border-radius: 35px;
-    background-color: #ffffff; }
+    background-color: #ffffff;
+    -webkit-appearance: none; }
   .dpd-item select {
     text-align: center;
     line-height: 1;
     position: relative; }
+  .dpd-item select::after {
+    content: '>';
+    color: red; }
   .dpd-item label {
     margin-bottom: 15px; }
   .dpd-item--country {
