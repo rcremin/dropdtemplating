@@ -4,18 +4,21 @@
   src: url("./fonts/Stawix - SoinSansNeue-Roman.otf");
   font-weight: 400;
   font-style: normal; }
+
 @font-face {
   font-family: "SoinSansNeue";
   font-display: swap;
   src: url("./fonts/Stawix - SoinSansNeue-Medium.otf");
   font-weight: 500;
   font-style: normal; }
+
 @font-face {
   font-family: "SoinSansNeue";
   font-display: swap;
   src: url("./fonts/Stawix - SoinSansNeue-Bold.otf");
   font-weight: 700;
   font-style: normal; }
+
 html,
 body,
 div,
@@ -297,4 +300,5 @@ body {
       font-size: 18px;
       line-height: 24px; } }
 
-/*# sourceMappingURL=styles.css.map */
+.dpd-burger {
+  border: solid 1px red; }
