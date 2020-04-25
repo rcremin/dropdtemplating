@@ -188,6 +188,10 @@ body {
     }
   }
 
+  @include sm {
+    border: solid 1px red;
+  }
+
   @media only screen and (max-width: 1200px) {
     width: 225px;
 
