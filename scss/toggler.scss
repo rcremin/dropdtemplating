@@ -8,7 +8,7 @@
   .span {
     height: 4px;
     width: 30px;
-    background: blue;
+    background: black;
     position: relative;
 
     &:before,
@@ -26,5 +26,14 @@
 
   @include xl {
     display: none;
+  }
+}
+
+.red {
+
+  .span,
+  .span:after,
+  .span:before {
+    background: red;
   }
 }

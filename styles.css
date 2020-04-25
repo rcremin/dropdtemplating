@@ -344,7 +344,7 @@ body {
   .toggler .span, .toggler .span:before, .toggler .span:after {
     height: 4px;
     width: 30px;
-    background: blue;
+    background: black;
     position: relative; }
     .toggler .span:before, .toggler .span:after {
       content: '';
@@ -355,3 +355,8 @@ body {
   @media (min-width: 1200px) {
     .toggler {
       display: none; } }
+
+.red .span, .red .toggler .span:before, .toggler .red .span:before, .red .toggler .span:after, .toggler .red .span:after,
+.red .span:after,
+.red .span:before {
+  background: red; }
