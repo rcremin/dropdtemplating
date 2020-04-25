@@ -194,7 +194,7 @@ body {
     margin: 1em 0;
     color: #041157;
     text-align: center;
-    font-size: 40px;
+    font-size: 30px;
     font-weight: 700;
     font-family: "SoinSansNeue", sans-serif; }
     @media (min-width: 768px) {
@@ -204,7 +204,7 @@ body {
         font-size: 3.5rem; } }
   .dpd-body h2 {
     text-align: center;
-    font-size: 30px;
+    font-size: 20px;
     padding-top: 10px;
     line-height: 42px;
     letter-spacing: 0.7px; }
