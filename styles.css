@@ -294,38 +294,64 @@ body {
       margin-right: 15px; }
 
 .dpd-tabs {
-  padding-top: 38px;
-  padding-bottom: 26px;
-  display: flex;
-  justify-content: space-between;
-  border-bottom: 1px solid #eaeaea; }
+  display: grid;
+  grid-gap: .5em;
+  grid-template-columns: 1fr;
+  border-bottom: 1px solid #eaeaea;
+  padding: 1em; }
+  @media (min-width: 768px) {
+    .dpd-tabs {
+      grid-template-columns: 1fr 1fr; } }
   .dpd-tabs button {
-    color: #041157;
     cursor: pointer;
-    font-size: 15px;
-    line-height: 24px;
-    font-weight: 500;
-    position: relative;
-    background-color: transparent;
-    margin: 0 .5em; }
-    @media (min-width: 992px) {
+    border: solid 1px grey;
+    border-radius: 25px;
+    margin: auto;
+    padding: .6em 1.5em;
+    font-size: 1.2rem;
+    transition: all .5s ease;
+    color: #041157; }
+    .dpd-tabs button:hover {
+      background: #041157;
+      color: white; }
+  @media (min-width: 992px) {
+    .dpd-tabs {
+      padding-top: 38px;
+      padding-bottom: 26px;
+      display: flex;
+      justify-content: space-between;
+      border-bottom: 1px solid #eaeaea; }
+      .dpd-tabs button {
+        border: 0;
+        color: #041157;
+        font-size: 15px;
+        line-height: 24px;
+        font-weight: 500;
+        position: relative;
+        background-color: transparent;
+        margin: 0 .5em; }
+        .dpd-tabs button:hover {
+          background: 0;
+          color: #041157; } }
+    @media (min-width: 992px) and (min-width: 992px) {
       .dpd-tabs button {
         font-size: 25px;
         line-height: 42px; } }
-    @media (min-width: 1400px) {
+    @media (min-width: 992px) and (min-width: 1400px) {
       .dpd-tabs button {
         font-size: 35px;
         line-height: 42px; } }
-    .dpd-tabs button:hover:after {
-      content: '';
-      left: 0;
-      width: 100%;
-      height: 10px;
-      bottom: -26px;
-      position: absolute;
-      border-top-left-radius: 10px;
-      border-top-right-radius: 10px;
-      background-color: #4ca0e9; }
+  @media (min-width: 992px) {
+        .dpd-tabs button:hover:after {
+          content: '';
+          left: 0;
+          width: 100%;
+          height: 10px;
+          bottom: -26px;
+          position: absolute;
+          border-top-left-radius: 10px;
+          border-top-right-radius: 10px;
+          background-color: #4ca0e9; } }
 
 .toggler {
   position: absolute;
