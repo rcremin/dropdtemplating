@@ -273,9 +273,10 @@ body {
   grid-template-columns: 1fr;
   justify-content: space-between;
   max-width: 690px; }
-  @media (min-width: 992px) {
+  @media (min-width: 768px) {
     .dpd-options {
-      grid-template-columns: 1fr 1fr; } }
+      grid-template-columns: 1fr 1fr;
+      margin: 2em auto; } }
   .dpd-options button {
     margin: auto;
     width: 100%;
