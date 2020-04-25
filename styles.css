@@ -114,53 +114,52 @@ body {
   background: #ffffff;
   height: 100vh;
   transition: all .5s ease;
-  box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
-  width: 405px; }
+  padding: 50px 15px 0 0; }
+  .dpd-nav .logout {
+    color: #061058; }
+  .dpd-nav__list {
+    padding: 20px 0 26px; }
+    .dpd-nav__list img {
+      width: 30px; }
+    .dpd-nav__list li {
+      padding-left: 72px;
+      margin-bottom: 24px;
+      position: relative; }
+      .dpd-nav__list li:hover:after {
+        top: 0;
+        left: 0;
+        bottom: 0;
+        margin: auto;
+        content: '';
+        width: 10px;
+        height: 52px;
+        position: absolute;
+        border-top-right-radius: 10px;
+        border-bottom-right-radius: 10px;
+        background-color: #4ca0e9; }
+    .dpd-nav__list .dpd-nav__title h3 {
+      padding-left: 72px; }
+    .dpd-nav__list a {
+      font-size: 30px;
+      line-height: 38px;
+      font-weight: 500;
+      display: flex;
+      align-items: center; }
+      .dpd-nav__list a:hover {
+        color: #041157; }
+    .dpd-nav__list i {
+      padding-left: 6px;
+      padding-right: 20px; }
   @media (min-width: 1200px) {
     .dpd-nav {
+      width: 405px;
       transform: translateX(0);
       position: relative;
       display: flex;
       flex-direction: column;
       justify-content: space-between;
       min-width: 405px;
-      padding: 50px 15px 0 0;
-      background-color: #f9f9f9; }
-      .dpd-nav .logout {
-        color: #061058; }
-      .dpd-nav__list {
-        padding: 20px 0 26px; }
-        .dpd-nav__list img {
-          width: 30px; }
-        .dpd-nav__list li {
-          padding-left: 72px;
-          margin-bottom: 24px;
-          position: relative; }
-          .dpd-nav__list li:hover:after {
-            top: 0;
-            left: 0;
-            bottom: 0;
-            margin: auto;
-            content: '';
-            width: 10px;
-            height: 52px;
-            position: absolute;
-            border-top-right-radius: 10px;
-            border-bottom-right-radius: 10px;
-            background-color: #4ca0e9; }
-        .dpd-nav__list .dpd-nav__title h3 {
-          padding-left: 72px; }
-        .dpd-nav__list a {
-          font-size: 30px;
-          line-height: 38px;
-          font-weight: 500;
-          display: flex;
-          align-items: center; }
-          .dpd-nav__list a:hover {
-            color: #041157; }
-        .dpd-nav__list i {
-          padding-left: 6px;
-          padding-right: 20px; } }
+      background-color: #f9f9f9; } }
   .dpd-nav__logo {
     color: #041157;
     font-size: 44px;

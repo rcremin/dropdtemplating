@@ -6,76 +6,77 @@
   background: #ffffff;
   height: 100vh;
   transition: all .5s ease;
-  box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
+  padding: 50px 15px 0 0;
+
+  .logout {
+    color: #061058;
+  }
+
+  &__list {
+    padding: 20px 0 26px;
+
+    img {
+      width: 30px;
+    }
+
+    li {
+      padding-left: 72px;
+      margin-bottom: 24px;
+      position: relative;
+
+      &:hover {
+        &:after {
+          top: 0;
+          left: 0;
+          bottom: 0;
+          margin: auto;
+          content: '';
+          width: 10px;
+          height: 52px;
+          position: absolute;
+          border-top-right-radius: 10px;
+          border-bottom-right-radius: 10px;
+          background-color: $color-primary;
+        }
+      }
+    }
+
+    .dpd-nav__title h3 {
+      padding-left: 72px;
+    }
+
+    a {
+      font-size: 30px;
+      line-height: 38px;
+      font-weight: 500;
+      display: flex;
+      align-items: center;
+
+      &:hover {
+        color: $color-secondary;
+      }
+    }
+
+    i {
+      padding-left: 6px;
+      padding-right: 20px;
+    }
+  }
 
   @include md {}
 
   @include lg {}
 
   @include xl {
+    width: 405px;
     transform: translateX(0);
     position: relative;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     min-width: 405px;
-    padding: 50px 15px 0 0;
+
     background-color: #f9f9f9;
-
-    .logout {
-      color: #061058;
-    }
-
-    &__list {
-      padding: 20px 0 26px;
-
-      img {
-        width: 30px;
-      }
-
-      li {
-        padding-left: 72px;
-        margin-bottom: 24px;
-        position: relative;
-
-        &:hover {
-          &:after {
-            top: 0;
-            left: 0;
-            bottom: 0;
-            margin: auto;
-            content: '';
-            width: 10px;
-            height: 52px;
-            position: absolute;
-            border-top-right-radius: 10px;
-            border-bottom-right-radius: 10px;
-            background-color: $color-primary;
-          }
-        }
-      }
-
-      .dpd-nav__title h3 {
-        padding-left: 72px;
-      }
-
-      a {
-        font-size: 30px;
-        line-height: 38px;
-        font-weight: 500;
-        display: flex;
-        align-items: center;
-
-        &:hover {
-          color: $color-secondary;
-        }
-      }
-
-      i {
-        padding-left: 6px;
-        padding-right: 20px;
-      }
-    }
   }
 
   &__logo {
@@ -96,7 +97,7 @@
     font-family: "SoinSansNeue", sans-serif;
   }
 
-  width: 405px;
+
 
   &__list {
 
