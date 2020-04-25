@@ -3,7 +3,7 @@
 
 .dpd-item {
   width: 100%;
-  margin-bottom: 50px;
+  margin-bottom: 25px;
   display: inline-flex;
   flex-direction: column;
   padding-right: 15px; }
@@ -11,7 +11,7 @@
   .dpd-item select {
     width: 100%;
     padding: .7em 1.5em;
-    font-size: 28px;
+    font-size: 25px;
     border-radius: 35px;
     background-color: #ffffff;
     -webkit-appearance: none; }
@@ -121,7 +121,7 @@ body {
     padding: 20px 0 26px; }
     .dpd-nav__list li {
       padding-left: 72px;
-      margin-bottom: 24px;
+      margin-bottom: 15px;
       position: relative; }
       .dpd-nav__list li:hover:after {
         top: 0;
@@ -138,7 +138,7 @@ body {
     .dpd-nav__list .dpd-nav__title h3 {
       padding-left: 72px; }
     .dpd-nav__list a {
-      font-size: 30px;
+      font-size: 24px;
       line-height: 38px;
       font-weight: 500;
       display: flex;
@@ -173,7 +173,7 @@ body {
     text-transform: uppercase;
     font-family: "SoinSansNeue", sans-serif; }
   .dpd-nav__list a {
-    line-height: 24px; }
+    line-height: 15px; }
 
 .show {
   transform: translateX(0); }
@@ -188,20 +188,19 @@ body {
       border-top-left-radius: 70px;
       border-bottom-left-radius: 70px;
       padding-left: 5%;
-      padding-right: 5%;
-      padding-top: 5%; } }
+      padding-right: 5%; } }
   .dpd-body h1 {
     margin: 1em 0;
     color: #041157;
     text-align: center;
-    font-size: 30px;
+    font-size: 24px;
     font-weight: 700;
     font-family: "SoinSansNeue", sans-serif; }
     @media (min-width: 768px) {
       .dpd-body h1 {
         margin: .5em 0;
         text-align: left;
-        font-size: 3.5rem; } }
+        font-size: 3rem; } }
   .dpd-body h2 {
     text-align: center;
     font-size: 20px;
@@ -235,7 +234,7 @@ body {
 
 .dpd-form label {
   font-weight: 500;
-  font-size: 26px;
+  font-size: 20px;
   line-height: 36px;
   color: #041157; }
 
@@ -314,8 +313,8 @@ body {
         line-height: 42px; } }
     @media (min-width: 1400px) {
       .dpd-tabs button {
-        font-size: 35px;
-        line-height: 42px; } }
+        font-size: 25px;
+        line-height: 30px; } }
     .dpd-tabs button:hover:after {
       content: '';
       left: 0;

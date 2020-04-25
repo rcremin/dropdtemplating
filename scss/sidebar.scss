@@ -17,7 +17,7 @@
 
     li {
       padding-left: 72px;
-      margin-bottom: 24px;
+      margin-bottom: 15px;
       position: relative;
 
       &:hover {
@@ -42,7 +42,7 @@
     }
 
     a {
-      font-size: 30px;
+      font-size: 24px;
       line-height: 38px;
       font-weight: 500;
       display: flex;
@@ -58,10 +58,6 @@
       padding-right: 20px;
     }
   }
-
-  @include md {}
-
-  @include lg {}
 
   @include xl {
     width: 405px;
@@ -97,8 +93,7 @@
   &__list {
 
     a {
-      // font-size: 18px;
-      line-height: 24px;
+      line-height: 15px;
     }
   }
 }
