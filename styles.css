@@ -46,9 +46,6 @@
   font-weight: 700;
   font-style: normal; }
 
-body {
-  background-color: #F2F2F2; }
-
 html,
 body,
 div,
@@ -99,7 +96,7 @@ span {
   font-weight: inherit; }
 
 body {
-  background-color: #F2F2F2; }
+  background-color: #F9F9F9; }
 
 .dpd-page {
   display: grid;
