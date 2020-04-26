@@ -27,6 +27,9 @@
   .dpd-item--location {
     width: 100%; }
 
+html {
+  font-size: 16px; }
+
 @font-face {
   font-family: "SoinSansNeue";
   font-display: swap;
@@ -106,6 +109,11 @@ body {
   @media (min-width: 1200px) {
     .dpd-page {
       grid-template-columns: 1fr 4fr; } }
+
+h1 {
+  color: #041157;
+  line-height: 50px;
+  font-weight: 700; }
 
 .dpd-nav {
   z-index: 5;
@@ -191,15 +199,14 @@ body {
       border-bottom-left-radius: 70px;
       padding-left: 5%;
       padding-right: 5%; } }
-  .dpd-body h1 {
+  .dpd-body .dpd-body__h1 {
     margin: 1em 0;
     color: #041157;
     text-align: center;
     font-size: 24px;
-    font-weight: 700;
     font-family: "SoinSansNeue", sans-serif; }
     @media (min-width: 768px) {
-      .dpd-body h1 {
+      .dpd-body .dpd-body__h1 {
         margin: .5em 0;
         text-align: left;
         font-size: 3rem; } }
@@ -356,3 +363,10 @@ main {
 .red .span:after,
 .red .span:before {
   background: red; }
+
+.logout {
+  display: flex;
+  flex-direction: column; }
+  .logout__h1 {
+    font-size: 4rem;
+    text-align: center; }

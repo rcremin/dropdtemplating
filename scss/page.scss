@@ -8,6 +8,10 @@
   }
 }
 
+html {
+  font-size: 16px;
+}
+
 @include fontface('SoinSansNeue', 'Stawix - SoinSansNeue-Roman', 400);
 @include fontface('SoinSansNeue', 'Stawix - SoinSansNeue-Medium', 500);
 @include fontface('SoinSansNeue', 'Stawix - SoinSansNeue-Bold', 700);
